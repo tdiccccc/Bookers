@@ -1,3 +1,9 @@
+<% flash.each do |key, value| %>
+    <p id="notice">
+      <%= value %>
+    </p>
+<% end %>
+
 <P>
   <strong>Title:</strong><%= @book.title %>
 </P>
